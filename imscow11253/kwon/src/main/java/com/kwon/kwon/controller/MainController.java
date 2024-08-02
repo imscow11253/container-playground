@@ -15,7 +15,7 @@ public class MainController {
         return "imscow11253";
     }
 
-    @GetMapping("healthcheck")
+    @GetMapping("/healthcheck")
     public String method2(){
         return "healthcheck";
     }
